@@ -71,10 +71,10 @@ public class CustomerDialog
         foreach (var customer in customers)
         {
             Console.WriteLine();
-            Console.WriteLine($"Customer ID: {customer.Id}");  // Rättade "Custemer" -> "Customer"
+            Console.WriteLine($"Customer ID: {customer.Id}"); 
             Console.WriteLine($"Name: {customer.Name}");
             Console.WriteLine($"Email: {customer.Email}");
-            Console.WriteLine($"Phone number: {customer.PhoneNumber}");  // Rättade "Telefon number" -> "Phone number"
+            Console.WriteLine($"Phone number: {customer.PhoneNumber}");  
             Console.WriteLine("--------------------------------------------------------------------------");
 
         }
@@ -112,7 +112,7 @@ public class CustomerDialog
         foreach (var customer in customers)
         {
             Console.WriteLine();
-            Console.WriteLine($"Customer ID: {customer.Id}");  // Rättade "Custemer" -> "Customer"
+            Console.WriteLine($"Customer ID: {customer.Id}"); 
             Console.WriteLine($"Name: {customer.Name}");
 
         }
@@ -160,10 +160,10 @@ public class CustomerDialog
         foreach (var customer in customers)
         {
             Console.WriteLine();
-            Console.WriteLine($"Customer ID: {customer.Id}");  // Rättade "Custemer" -> "Customer"
+            Console.WriteLine($"Customer ID: {customer.Id}");  
             Console.WriteLine($"Name: {customer.Name}");
             Console.WriteLine($"Email: {customer.Email}");
-            Console.WriteLine($"Phone number: {customer.PhoneNumber}");  // Rättade "Telefon number" -> "Phone number"
+            Console.WriteLine($"Phone number: {customer.PhoneNumber}");  
             Console.WriteLine("--------------------------------------------------------------------------");
 
         }

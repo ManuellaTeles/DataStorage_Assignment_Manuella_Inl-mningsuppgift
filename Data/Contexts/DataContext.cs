@@ -7,7 +7,7 @@ public class DataContext : DbContext
 {
     public DataContext(DbContextOptions<DataContext> options) : base(options) { }
 
-    // Parameterlös konstruktor för design-time migrationer
+   
     public DataContext() { }
 
     public DbSet<ProjectEntity> Projects { get; set; } = null!;

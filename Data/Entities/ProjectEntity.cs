@@ -29,11 +29,11 @@ public class ProjectEntity
 
     public decimal TotalPrice { get; set; }
 
-    // Status: 1 = Ej påbörjat, 2 = Pågår, 3 = Avslutat
+   
     public int Status { get; set; }
 
     public ProjectEntity()
     {
-        ProjectNumber = $"P-{Guid.NewGuid().ToString().Substring(0, 6)}";
+        ProjectNumber = $"P-{Guid.NewGuid().ToString().Substring(0, 3)}";
     }
 }

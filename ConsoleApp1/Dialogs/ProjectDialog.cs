@@ -251,7 +251,7 @@ public class ProjectDialog
                 if (int.TryParse(Console.ReadLine(), out int newStatus) && newStatus >= 1 && newStatus <= 3)
                     project.Status = newStatus;
 
-                // Recalculate the total price !!!!!!!!
+                
                 project.TotalPrice = project.HoursWorked * project.HourlyRate;
 
                 await _projectService.UpdateProjectAsync(project);
